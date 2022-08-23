@@ -42,30 +42,30 @@ public class SpringJpaApplication {
 			System.out.println(pago);
 		}
 
+		System.out.println("SERVICIOS: FILTRO NULL NULL");
 		List<Servicio> resultado = sc.buscar(null, null);
-
-		System.out.println("SERVICIOS: FILTRO NULL NULL"+ resultado);
 		for (Servicio servicio : resultado){
 			System.out.println(servicio);
 		}
 
+		System.out.println("SERVICIOS: FILTRO NULL movistar");
 		resultado = sc.buscar(null, "movistar");
-		System.out.println("SERVICIOS: FILTRO NULL X");
 		for (Servicio servicio : resultado){
 			System.out.println(servicio);
 		}
 
-		resultado = sc.buscar(2L, null);
-		System.out.println("SERVICIOS: FILTRO X null");
+		System.out.println("SERVICIOS: FILTRO 3 null");
+		resultado = sc.buscar(3L, null);
 		for (Servicio servicio : resultado){
 			System.out.println(servicio);
 		}
 
+		System.out.println("SERVICIOS: FILTRO 1 movistar");
 		resultado = sc.buscar(1L, "movistar");
-		System.out.println("SERVICIOS: FILTRO X X");
 		for (Servicio servicio : resultado){
 			System.out.println(servicio);
 		}
+
 	}
 
 }

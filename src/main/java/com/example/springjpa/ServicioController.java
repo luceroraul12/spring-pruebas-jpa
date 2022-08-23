@@ -21,7 +21,7 @@ public class ServicioController {
     }
 
     public List<Servicio> buscar(Long id, String nombre){
-        return rep.findByIdOrNombre(id, nombre);
+        return rep.busquedaFiltrada(id, nombre);
     }
 
 

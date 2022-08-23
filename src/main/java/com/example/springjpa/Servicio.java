@@ -8,8 +8,6 @@ public class Servicio {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-    
     private String nombre;
 
     public Servicio() {
