@@ -39,6 +39,8 @@ public class SpringJpaApplication {
 		for (Pago pago : pc.mostrar()){
 			System.out.println(pago);
 		}
+
+
 	}
 
 }
