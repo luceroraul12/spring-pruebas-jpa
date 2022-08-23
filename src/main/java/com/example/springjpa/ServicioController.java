@@ -19,4 +19,10 @@ public class ServicioController {
     public List<Servicio> mostrar(){
         return rep.findAll();
     }
+
+    public List<Servicio> buscar(Long id, String nombre){
+        return rep.findByIdOrNombre(id, nombre);
+    }
+
+
 }

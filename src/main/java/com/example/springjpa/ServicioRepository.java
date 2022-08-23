@@ -10,5 +10,8 @@ import java.util.List;
 public interface ServicioRepository extends JpaRepository<Servicio, Long> {
     List<Servicio> findByIdAndNombre(@Nullable Long id, @Nullable String nombre);
 
+    List<Servicio> findByIdOrNombre(@Nullable Long id, @Nullable String nombre);
+
+
 
 }
