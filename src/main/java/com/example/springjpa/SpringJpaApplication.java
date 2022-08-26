@@ -1,5 +1,9 @@
 package com.example.springjpa;
 
+import com.example.springjpa.controllers.PagoController;
+import com.example.springjpa.controllers.ServicioController;
+import com.example.springjpa.models.Pago;
+import com.example.springjpa.models.Servicio;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

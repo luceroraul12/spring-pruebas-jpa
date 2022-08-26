@@ -1,5 +1,7 @@
-package com.example.springjpa;
+package com.example.springjpa.controllers;
 
+import com.example.springjpa.repository.ServicioRepository;
+import com.example.springjpa.models.Servicio;
 import org.springframework.stereotype.Controller;
 
 import java.util.List;

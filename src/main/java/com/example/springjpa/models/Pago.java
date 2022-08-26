@@ -1,4 +1,4 @@
-package com.example.springjpa;
+package com.example.springjpa.models;
 
 import javax.persistence.*;
 import java.time.LocalDate;

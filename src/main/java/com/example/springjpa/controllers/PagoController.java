@@ -1,5 +1,7 @@
-package com.example.springjpa;
+package com.example.springjpa.controllers;
 
+import com.example.springjpa.repository.PagoRepository;
+import com.example.springjpa.models.Pago;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
 
