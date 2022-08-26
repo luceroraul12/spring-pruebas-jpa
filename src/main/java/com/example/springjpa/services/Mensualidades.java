@@ -9,6 +9,7 @@ import java.util.List;
 @Service
 public interface Mensualidades {
 
-
+    List<Servicio> getServiciosCargados();
+    List<Pago> getPagosCargados();
 
 }
